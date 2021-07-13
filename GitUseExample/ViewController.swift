@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
 
     @objc func handleButton(){
-        print("This is a Git tutorial")
+        print("You finished!")
 
     }
     
