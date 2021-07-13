@@ -12,6 +12,7 @@
 		0451E127269D6055008A60F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E126269D6055008A60F1 /* ViewController.swift */; };
 		0451E12C269D6058008A60F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0451E12B269D6058008A60F1 /* Assets.xcassets */; };
 		0451E12F269D6058008A60F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451E12D269D6058008A60F1 /* LaunchScreen.storyboard */; };
+		0451E13B269D7C44008A60F1 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E13A269D7C44008A60F1 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0451E12B269D6058008A60F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0451E12E269D6058008A60F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0451E130269D6058008A60F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0451E13A269D7C44008A60F1 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0451E12B269D6058008A60F1 /* Assets.xcassets */,
 				0451E12D269D6058008A60F1 /* LaunchScreen.storyboard */,
 				0451E130269D6058008A60F1 /* Info.plist */,
+				0451E13A269D7C44008A60F1 /* MapForItinerary.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0451E13B269D7C44008A60F1 /* MapForItinerary.swift in Sources */,
 				0451E127269D6055008A60F1 /* ViewController.swift in Sources */,
 				0451E123269D6055008A60F1 /* AppDelegate.swift in Sources */,
 				0451E125269D6055008A60F1 /* SceneDelegate.swift in Sources */,
