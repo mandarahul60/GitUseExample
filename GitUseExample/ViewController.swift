@@ -16,6 +16,14 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .white
         
+        let label = UILabel()
+        label.text = "New Label"
+        label.textColor = .black
+        label.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(label)
+        label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50).isActive = true
+        
        let button = UIButton()
         button.setTitle("Just A Button", for: .normal)
         button.setTitleColor(.blue, for: .normal)
